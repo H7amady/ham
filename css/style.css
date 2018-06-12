@@ -12,6 +12,7 @@
     margin: 10px;
     padding: 10px;
     top: 25%;
+    position: fixed
 }
 .about h1 {
     margin-bottom: 20px;
@@ -20,11 +21,14 @@
 .about span {
     color: #2196f3;
 }
-.about img {
-
+.about p {
+    margin-top: 20px;
+    color: rgb(128, 131, 133);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .projects {
     width: 50%;
+    height: 2000px;
     float: right;
     background: #2196f3;
 }
