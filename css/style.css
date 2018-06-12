@@ -26,6 +26,13 @@
     color: rgb(128, 131, 133);
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+.social{
+    text-align: center;
+    margin-top: 50px;
+}
+.social a {
+    padding: 5px;
+}
 .projects {
     width: 50%;
     height: 2000px;
