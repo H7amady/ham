@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about {
+    position: absolute;
+    width: 40%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    top: 25%;
+}
+.about h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.about span {
+    color: #2196f3;
+}
+.about img {
+
+}
+.projects {
+    width: 50%;
+    float: right;
+    background: #2196f3;
+}
+
