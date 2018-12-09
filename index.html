@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hamady - Blog</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="container">
-        <div class="about">
-            <h1>Hamady <span>MohamedVall</span></h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque accusantium maiores inventore nobis eius reiciendis repudiandae magni, sapiente aliquid similique beatae repellat atque ipsa ipsum vel, officiis odit quidem mollitia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eum in, tempora amet reiciendis eos rerum laboriosam consequuntur accusamus quod quidem voluptate id, quasi culpa sunt eveniet ab, aperiam soluta.</p>
-            <div class="social">
-                <a href="#"><img src="images/github.png"></a>
-                <a href="#"><img src="images/twitter.png"></a>
-                <a href="#"><img src="images/linkedin.png"></a>
-              </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Hamady - Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Hamady Vall</h1>
+        </a>
+        <p>Front End Developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#myskills">My Skils</a></li>
+          <li><a href="#myprojects">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <div id="about">
+        <h1>About Me</h1>
+        <p>Hi! I'am Hamady</p>
+        <p>
+          I'am a self taught frontend developer based in Nouakchott Mauritania.
+          Passionate about web development with strong desire to learn and create.
+        </p>
+      </div>
+      <div id="myskills">
+        <h1>My Skills</h1>
+        <div class="skill">
+          <img src="images/html5.png" alt="Html5">
+          <img src="images/css3.png" alt="CSS3">
+          <img src="images/js.png" alt="JavaScript">
+          <img src="images/bootstrap.png" alt="Bootstrap">
+        </div>
+      </div>
+      <div id="myprojects">
+        <h1>My Projects</h1>
+        <div class="wrapper">
+          <div class="project1">
+            <img src="https://via.placeholder.com/200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos magni quas exercitationem,
+              ipsa
+              illum! Dolorum consectetur.</p>
           </div>
-          <div class="projects">
-            <h1>Hello here is projects</h1>
+          <div class="project2">
+            <img src="https://via.placeholder.com/200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos magni quas exercitationem,
+              ipsa
+              illum! Dolorum consectetur.</p>
           </div>
-    </div>
-    
-  </body>
+          <div class="project3">
+            <img src="https://via.placeholder.com/200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos magni quas exercitationem,
+              ipsa
+              illum! Dolorum consectetur.</p>
+          </div>
+          <div class="project4">
+            <img src="https://via.placeholder.com/200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos magni quas exercitationem,
+              ipsa
+              illum! Dolorum consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h1>Let's Talk</h1>
+        <form class="form">
+          <input type="text" id="name" placeholder="Name">
+          <input type="email" id="email" placeholder="Email">
+          <textarea id="message" placeholder="Message"></textarea>
+          <button type="submit" id="button">Send</button>
+        </form>
+      </div>
+    </main>
+    <footer class="mainfooter">
+      <p>Made with love by 7amady</p>
+    </footer>
+  </div>
+</body>
+
 </html>
