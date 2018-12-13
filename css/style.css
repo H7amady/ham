@@ -1,11 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
 *{
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
 .container {
-    background: #161616;
-    color: white;
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: #4CAF50;
 }
 .header-container {
     display: grid;
@@ -50,6 +57,19 @@ header ul li a, .logo a {
     text-align: center;
     margin: 40px 10px;
 }
+.skill {
+    display: inline-block;
+    background: #ccc;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.skill img {
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 8%;
+}
 #myprojects {
     margin: 40px 10px;
 }
@@ -82,23 +102,34 @@ header ul li a, .logo a {
     text-align: center;
 }
 #contact {
+    width: 400px;
+    height: 500px;
     text-align: center;
+    background: #ffffff;
+    color: #777;
+    border-radius: 3px;
+    margin: 0 auto;
 }
 .form {
-    margin: 20x;
     padding: 10px;
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 #name, #email {
     width: 300px;
     margin: 0 auto;
     padding: 10px 5px;
-    display: block;
     margin-bottom: 10px;
     border-radius: 3px;
 }
 #message {
     width: 300px;
-    height: 60px;
+    height: 80px;
     margin: 0 auto;
     padding: 10px 5px;
     display: block;
@@ -106,17 +137,38 @@ header ul li a, .logo a {
     border-radius: 3px;
 }
 #button {
-    padding: 5px;
-    width: 150px;
+    padding: 5px 20px;
+    width: 100%;
     border-radius: 3px;
     font-size: 1.6em;
+    cursor: pointer;
+    border: none;
+}
+button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+}
+.socialmedia {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.socialmedia img {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
 }
 .content {
-    
+    color: #ffffff;
 }
-.skill img {
-    border-radius: 50%;
-}
+
 .mainfooter {
-   text-align: center
+   text-align: center;
+   padding: 10px;
+}
+.mainfooter p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
 }
